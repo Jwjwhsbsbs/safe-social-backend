@@ -12,10 +12,10 @@ app.get("/", (req, res) => {
 
 // Example API Route
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello from Safe Social API 👋" });
+  res.json({ message: "Hello from Safe Social API! 👋" });
 });
 
-// Start Server
+// Start server
 app.listen(PORT, () => {
   console.log(Server running on port ${PORT});
 });
